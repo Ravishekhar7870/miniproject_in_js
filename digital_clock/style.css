@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color:white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+}
+.banner{
+    display: flex;
+    border: 2px solid black;
+    width:200px;
+    height: 60px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    margin:30px
+}
+.clock{
+    border: 2px solid orange;
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
